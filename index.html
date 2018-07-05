@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+	<!-- base para social midia icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teste Bertholdo</title>
+</head>
+<body>
+	<div class="barra">
+		<div class="container">
+			<div class="row justify-content-between">
+			    <div class="col-5 esquerda">
+		      		<a href="">LISTA DE PRESENTES</a>
+		    	</div>
+			    <div class="col-5 direita">
+			      	<ul class="navbar">
+						<li><a href=""><span class="fa fa-heart-o"> MEUS FAVORITOS</span></a></li>
+						<li><a href=""><span class="fa fa-angle-double-right"> ENTRAR</span></a></li>
+						<li><a href=""><span class="fa fa-user-o"> CADASTRAR</span></a></li>
+					</ul>
+				</div>
+  			</div>
+		</div>
+	</div>
+	<div class="fontRoboto" id="logo" class="row">
+	    <div class="col-sm-5">
+	      <input type="search" placeholder="Procurar no site...">
+	    </div>
+	    <div class="col-sm">
+	      <span class="homeLogo">homeDESIGN</span>
+	    </div>
+	    <div class="col-sm">
+	      <span class="fa fa-shopping-bag"><strong> CARRINHO</strong> <span id="item">0</span> item(s) por <span id="total" style="color: red;">R$0,00</span></span>
+	    </div>
+  	</div>
+	<nav>
+		<ul class="menu container">
+			<li><a href="">HOME</a></li>
+			<li><a href="">MESA</a></li>
+			<li><a href="">BAR</a></li>
+			<li><a href="">TALHERES</a></li>
+			<li><a href="">CHÁ E CAFÉ</a></li>
+			<li><a href="">NATURAIS</a></li>
+			<li><a href="">VASOS</a></li>
+			<li><a href="">ILIMUNAÇÃO</a></li>
+			<li><a href="">ESCRITÓRIO</a></li>
+		</ul>
+	</nav>
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	  	<div class="carousel-inner">
+		  	<div id="banner">
+ 		  		<div class="carousel-caption">
+			      	<div id="textoFixa">
+					    <span class="fontRoboto">Conheça mais as novidades em nossa Loja</span>
+						<button type="button" class="botao txtbtn">Veja Mais</button>
+				    </div>
+			  	</div>
+   			</div>
+		    <div class="carousel-item active">
+		      <img class="d-block w-100 imageSlide" src="img/mesa.png" alt="First slide">
+		    </div>
+	    	<div class="carousel-item">
+		      	<img class="d-block w-100 imageSlide" src="img/mesa.png" alt="Second slide">
+	    	</div>
+	    	<div class="carousel-item">
+		      	<img class="d-block w-100 imageSlide" src="img/mesa.png" alt="Third slide">
+	    	</div>
+	  	</div>
+	</div>
+	<main class="container">
+		<div class="content">
+			<div class="categoria" style="background-image: url('img/abajour_par_de_chifres_menor_categoria.png');">
+				<div class="transbox">
+					<span class="fontRoboto">-ILUMINAÇÃO-</span>
+					<a href="">Veja Mais</a>
+				</div>
+			</div>
+			<div class="categoria" style="background-image: url('img/decanter_usando.png');">
+				<div class="transbox">
+					<span class="fontRoboto">-SUSTENTO LÍQUIDO-</span>
+					<a href="">Veja Mais</a>
+				</div>
+			</div>
+			<div class="categoria" style="background-image: url('img/rabo_de_macaco.png');">
+				<div class="transbox">				
+					<span class="fontRoboto">-CHÁ E CAFÉ-</span>
+					<a href="">Veja Mais</a>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="destaque">
+			<h4 class="fontRoboto">Destaques</h4>
+			<div class="itemDest">
+				<img src="img/conjunto_de_mel_certo.png">
+				<div class="dl">
+					<div class="nome">
+						<span class="fontRoboto">Conjunto para Mel</span>
+					</div>
+					<div class="valor">
+						<span>R$ 94,05</span><br>
+						<sub>R$ 94,05</sub>
+					</div>
+				</div>
+				<button class="txtbtn" type="button" name="compra" onclick="Carrinho(1)" value="22">COMPRAR</button>
+			</div>
+			<div class="itemDest">
+				<img src="img/tigela_bojuda_p.png">
+				<div class="dl">
+					<div class="nome">
+						<span class="fontRoboto">Tijela Bojuda Pequena</span>
+					</div>
+					<div class="valor">
+						<span>R$ 94,05</span>
+					</div>
+				</div>
+				<button class="txtbtn" type="button" name="compra" onclick="Carrinho(2)" value="94.05">COMPRAR</button>
+			</div>
+			<div class="itemDest">
+				<img src="img/travessa_oval_g.png">
+				<div class="dl">
+					<div class="nome">
+						<span class="fontRoboto">Travessa Oval G</span>
+					</div>
+					<div class="valor">
+						<span>R$ 94,05</span>
+					</div>
+				</div>
+				<button class="txtbtn" type="button" name="compra" onclick="Carrinho(3)" value="1">COMPRAR</button>
+			</div>
+			<div class="itemDest">
+				<img src="img/tigela_bojuda_mini.png">
+				<div class="dl">
+					<div class="nome">
+						<span class="fontRoboto">Tijela Bojuda Mini</span>
+					</div>
+					<div class="valor">
+						<span>R$ 94,05</span><br>
+						<sub>R$ 94,05</sub>
+					</div>
+				</div>
+				<button class="txtbtn" type="button" name="compra" onclick="Carrinho(4)" value="1">COMPRAR</button>
+			</div>
+			<div class="itemDest">
+				<img src="img/conjunto_de_mel_certo.png">
+				<div class="dl">
+					<div class="nome">
+						<span class="fontRoboto">Conjunto para Mel</span>
+					</div>
+					<div class="valor">
+						<span>R$ 94,05</span><br>
+						<sub>R$ 94,05</sub>
+					</div>
+				</div>
+				<button class="txtbtn" type="button" name="compra" onclick="Carrinho(5)" value="22">COMPRAR</button>
+			</div>
+			<div class="itemDest">
+				<img src="img/tigela_bojuda_p.png">
+				<div class="dl">
+					<div class="nome">
+						<span class="fontRoboto">Tijela Bojuda Pequena</span>
+					</div>
+					<div class="valor">
+						<span>R$ 94,05</span>
+					</div>
+				</div>
+				<button class="txtbtn" type="button" name="compra" onclick="Carrinho(6)" value="94.05">COMPRAR</button>
+			</div>
+			<div class="itemDest">
+				<img src="img/travessa_oval_g.png">
+				<div class="dl">
+					<div class="nome">
+						<span class="fontRoboto">Travessa Oval G</span>
+					</div>
+					<div class="valor">
+						<span>R$ 94,05</span>
+					</div>
+				</div>
+				<button class="txtbtn" type="button" name="compra" onclick="Carrinho(7)" value="1">COMPRAR</button>
+			</div>
+			<div class="itemDest">
+				<img src="img/tigela_bojuda_mini.png">
+				<div class="dl">
+					<div class="nome">
+						<span class="fontRoboto">Tijela Bojuda Mini</span>
+					</div>
+					<div class="valor">
+						<span>R$ 94,05</span><br>
+						<sub>R$ 94,05</sub>
+					</div>
+				</div>
+				<button class="txtbtn" type="button" name="compra" onclick="Carrinho(8)" value="1">COMPRAR</button>
+			</div>
+			
+		</div>
+		<section class="content">
+			<div class="ladoE">
+				<article class="cham">
+					<div class="transbox">
+						<span class="fontRoboto">-CHAMPANHEIRA-</span>
+						<a href="">PEÇA ÚNICA, NUMERADA E ASSINADA</a>
+					</div>
+				</article>
+				<article class="esc">
+					<div class="transbox">
+						<span class="fontRoboto">-ESCRITÓRIO-</span>
+						<a href="">CONFIRA AGORA</a>
+					</div>
+				</article>
+			</div>
+			<div class="ladoD">
+				<aside class="lado">
+					<div class="transbox">
+						<span class="fontRoboto">-VESTIR A MESA-</span>
+						<a href="">VENHA CONFERIR</a>
+					</div>
+				</aside>
+			</div>
+		</section>		
+		<div id="newsletter">
+			<div class="transbox">
+				<h4 class="fontRoboto">NEWSLETTER</h4>
+				<span class="fontRoboto">Inscreva-se para receber ofertas exclusivas de nossos produtos exclusivos</span>
+				<input type="text" id="lead" name="" placeholder="Digite seu email">
+				<button type="button" class="txtbtn botao">Assinar</button>
+			</div>
+		</div>
+		<h4 class="experimente fontRoboto">Experimente</h4>
+		<div class="exp">
+			<div class="box valor">
+				<img src="img/caminhao.png">
+				<h5>FRETE GRÁTIS</h5>
+				<p>A entrega fica por nossa conta para compras acima de R$800,00 na região Sudeste</p>
+			</div>
+			<div class="box valor">
+				<img src="img/telefone.png">
+				<h5>ATENDIMENTO</h5>
+				<p>Atendimento rápido e eféciente. Possui alguma pergunta? Estamos às ordens para proporcionar com precisão suas respostas.</p>
+			</div>
+			<div class="box valor">
+				<img src="img/handmade.png">
+				<h5>FEITO A MÃO</h5>
+				<p>Admiramos o trabalho feito a mão e fazemos jus à essa valorização. Nossas peças são produzidas uma a uma artesanalmente com carinho e precisão.</p>
+			</div>
+		</div>
+	</main>
+	<footer >
+		<div class="container">
+			<div class="row" style="padding-top: 30px; border-top: 1px solid #606060;">
+				<div class="col">
+					<ul id="atendimento">
+						<h6>ATENDIMENTO</h6>
+						<li class="fa fa-phone"> (99) 9999-9999</li><br>
+						<li class="fa fa-phone"> (99) 9999-9999</li><br>
+						<li class="fa fa-clock-o"> Segnda à sexta, 7hrs às 17hrs</li><br>
+						<li class="fa fa-envelope"> contato@contato.com.br</li><br>
+						<li class="fa fa-map-marker"> Rua A, 999, Bairro, Cidade- MG</li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul>
+						<h6><li>A homeDESIGN</li></h6>
+						<li>Quem Somos</li>
+						<li>Onde nos encontrar</li>
+						<li>Fale Conosco</li>
+						<li>Serviço Personalizado</li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul>
+						<h6><li>INFORMAÇÕES ÚTEIS</li></h6>
+						<li>Conserto</li>
+						<li>Manutenção</li>
+						<li>Formas de Pagamento</li>
+						<li>Trocas e Devoluções</li>
+						<li>Duvidas Frequentes</li>
+					</ul>
+				</div>
+				<div class="col">
+					<h6>FORMAS DE PAGAMENTO</h6>
+					<img src="img/pagseguro-black.png" style="margin: 14px 0px 14px 0px;">					
+					<h6>REDES SOCIAIS</h6>
+					<div class="linha">
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-instagram"></i></a>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div id="barrabaixoPri">
+			<div class="container">
+				<span>A homeDESGIN vem ao mercado sob um novo conceito de decoração e arte. Ligado a ambas idéias, a proposta base é vestir sua casa.</span>
+			</div>
+		</div>
+		<div id="barrabaixoSeg">
+			<img src="img/bertholdo.png">
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>

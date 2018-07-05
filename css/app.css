@@ -1,0 +1,503 @@
+*{
+  padding:0;
+  margin:0;
+  border:0;
+  box-sizing: border-box;
+}
+
+span.homeLogo{
+	font-family: "Didot LT STD";
+	font-size: 64px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+}
+
+body a{
+	text-decoration: none;
+	color: white;
+}
+body a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.barra{
+	border-bottom: 1px solid #606060;
+}
+
+div.col-5{
+	height: auto;
+	display: flex;
+  	flex-flow: row wrap;
+  	align-items: center;
+  	padding-top: 4px;
+}
+
+.direita{
+  	justify-content: flex-end;
+}
+
+.esquerda{
+  	padding-bottom: 12px;
+  	float: left;
+}
+
+.col-5 a{
+	color: black;
+}
+
+.col-5 a:hover{
+	color: black;
+}
+
+ul.navbar{
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+ul.navbar a{
+  color: black;
+  padding-right: 12px;
+}
+
+#logo{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+	padding-top: 5px;
+}
+
+input[type=search]{
+	border: 1px solid black;
+	width: 45%;
+	padding: 4px;
+	margin-left: 240px;
+	background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png');
+  	background-position: right;
+  	background-size: 28px;
+  	background-repeat: no-repeat;
+}
+
+header{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+nav{
+	margin: 10px;
+	padding: 20px 0px 0px 0px;
+	height: auto;
+	border-bottom: 1px solid #606060;
+	border-top: 1px solid #606060;
+}
+
+.menu{
+	display: flex;
+	flex-flow: row wrap;
+  	list-style: none;
+  	justify-content: flex-start;
+	align-items: flex-start;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+ul.menu li{
+	border-right: 1px solid black;
+}
+
+.menu a{
+	padding: 0px 24px 0px 24px;
+	font-weight: bold;
+	color: black;
+}
+
+.menu a:hover{
+	color: black;
+}
+
+#banner{
+	color: white;
+	height: 100%;
+  	width: 100%;
+  	z-index: 10;
+}
+
+#textoFixa{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 10%;
+	font-size: 50px;
+}
+
+#textoFixa button{
+	font-size: 22px;
+	font-weight: 800;
+	padding: 16px 20px 16px 20px;
+}
+
+div.categoria{
+  	height: 450px;
+  	margin: 16px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	flex: 30%;
+	color: white;
+}
+
+div.categoria, section span{
+	font-size: 28px;
+}
+
+div.categoria a{
+	font-size: 18px;
+}
+
+#destaque{
+	margin-bottom: 20px;
+}
+
+div#destaque h4{
+	flex: 100%;
+	text-align: center;
+}
+
+div.itemDest{
+	height: 480px;
+  	margin: 8px;
+  	display: flex;
+	flex-flow: column;
+	align-items: center;
+	flex: 23%;
+	color: black;
+	border: 1px solid black;
+	padding-bottom: 12px;
+}
+
+div.itemDest button{
+	padding: 4px 24px 4px 24px;
+	background-color: rgba(0, 0, 0, 0.0);
+	border: 2px solid black;
+	color: black;
+	margin-top: 100px;
+}
+
+div.itemDest span{
+	font-size: 20px;
+}
+
+.dl{
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	margin-left: -50px;
+}
+
+.nome{
+	flex-flow: column;
+	padding-bottom: 35px;
+}
+
+div.itemDest img{
+	height: 250px;
+	
+}
+
+section{
+	display: flex;
+	flex-flow: row wrap;
+  	justify-content: center;
+  	margin-bottom: 24px;
+  	color: white;
+}
+
+section a{
+	font-size: 13px;
+}
+
+div.ladoE{
+	display: flex;
+	flex-flow: column;
+	flex: 45%;
+	margin-right: 14px;
+}
+
+div.ladoD{
+	flex: 45%;
+}
+
+article.cham{
+	background-image: url("../img/banner_escritoric.png");
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+	flex: 100%;
+	height: 290px;
+}
+
+article.esc{
+	background-image: url("../img/book.png");
+	background-repeat: no-repeat;
+	flex: 100%;
+	height: 290px;
+}
+
+aside.lado{
+	background-image: url("../img/banner_vestir_a_mesa.png");
+	background-repeat: no-repeat;
+	flex: 100%;
+	height: 600px;
+}
+
+.experimente{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.exp{
+	height: 300px;
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+div.exp h4{
+	padding-top: 24px;
+	flex: 100%;
+	text-align: center;
+}
+
+div.box{
+	padding: 0px 10px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	flex: 30%;
+}
+
+div.box img{
+	width: 60px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.box p{
+	font-size: 12px;
+}
+
+.box h5{
+	font-weight: 200;
+	font-size: 22px;
+}
+
+#newsletter{
+	height: 300px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../img/news.png");
+	background-position: center;
+	color: white;
+}
+
+div#newsletter .transbox{
+	background-color: rgba(0,0,0,0.6);
+}
+
+div#newsletter button{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+button.botao{
+	width: 150px;
+	margin-bottom: 24px;
+	margin-top: 30px;
+	padding: 8px 24px 8px 24px;
+	color: white;
+	border:1px solid white;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+button.txtbtn{
+	font-family: "PT Sans Narrow";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+button{
+	cursor: pointer;
+}
+
+.content{
+	height: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+#lead{
+	width: 90%;
+	height: 50px;
+	margin-top: 10px;
+	padding: 8px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+#submit{
+	width: 100%;
+	padding: 12px;
+	margin-top: -10px;
+	border-radius: 4px;
+	color: white;
+	background-color: rgb(60, 105, 169);
+}
+
+h2{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+footer{
+	display: flex;
+	flex-flow: row wrap;
+	background-color: #FFFFFF;
+	height: auto;
+	font-size: 12px;
+	color: black;
+}
+
+.col{
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 5%;
+}
+
+#atendimento li{
+	padding-top: 16px;
+}
+
+.linha{
+	display: flex;
+	flex-flow: row;
+	flex: 25%;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+tr, td{
+	padding: 14px;
+	border-bottom: 1px solid rgba(0, 0, 139, 0.2);
+}
+
+div.fa-money{
+	font-size:48px;
+	margin-bottom: 24px;
+}
+
+#barrabaixoPri{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	width: 100%;
+	height: 65px;
+	font-size: 14px;
+	background-color: black;
+	color: white;
+}
+
+#barrabaixoSeg{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	color: black;
+}
+
+#direitos{
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: center;
+  	height: 0;
+  	margin-bottom: 5px;
+}
+
+#feitopor{
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: flex-end;
+  	float: right;
+  	height: 0;
+  	margin-bottom: 25px;
+}
+
+.valor{
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.fontRoboto{
+	font-family: 'Roboto', sans-serif;
+}
+
+.fontRobotoBold{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+i.fa{
+	color: black;
+	font-size: 24px;
+	margin: 8px;
+}
+
+div.transbox {
+	width: 100%;
+	height: 100%;
+  	background-color: rgba(0,0,0,0.3);
+  	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
